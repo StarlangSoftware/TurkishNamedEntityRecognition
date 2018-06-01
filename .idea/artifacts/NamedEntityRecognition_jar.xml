@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NamedEntityRecognition:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NamedEntityRecognition_jar</output-path>
+    <root id="archive" name="NamedEntityRecognition.jar">
+      <element id="module-output" name="NamedEntityRecognition" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/Corpus.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
