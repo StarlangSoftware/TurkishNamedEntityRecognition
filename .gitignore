@@ -53,3 +53,5 @@ nb-configuration.xml
 release.properties
 pom.xml.releaseBackup
 pom.xml.tag
+out/artifacts/NamedEntityRecognition_jar/NamedEntityRecognition.jar
+out/production/NamedEntityRecognition/libs/Corpus.jar
