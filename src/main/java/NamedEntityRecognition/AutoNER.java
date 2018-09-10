@@ -6,9 +6,9 @@ public abstract class AutoNER {
     protected Gazetteer locationGazetteer;
 
     public AutoNER(){
-        personGazetteer = new Gazetteer("PERSON", "Data/Ner/gazetteer-person.txt");
-        organizationGazetteer = new Gazetteer("ORGANIZATION", "Data/Ner/gazetteer-organization.txt");
-        locationGazetteer = new Gazetteer("LOCATION", "Data/Ner/gazetteer-location.txt");
+        personGazetteer = new Gazetteer("PERSON", "gazetteer-person.txt");
+        organizationGazetteer = new Gazetteer("ORGANIZATION", "gazetteer-organization.txt");
+        locationGazetteer = new Gazetteer("LOCATION", "gazetteer-location.txt");
     }
 
 }

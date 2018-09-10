@@ -14,7 +14,8 @@ public class Gazetteer {
         this.name = name;
         data = new HashSet<>();
         try {
-            Scanner input = new Scanner(new File(fileName));
+            ClassLoader classLoader = getClass().getClassLoader();
+            Scanner input = new Scanner(new File(classLoader.getResource(fileName).getFile()));
             while (input.hasNext()){
                 data.add(input.next().toLowerCase());
             }
