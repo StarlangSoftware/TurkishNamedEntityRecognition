@@ -13,14 +13,10 @@ public class Gazetteer {
     public Gazetteer(String name, String fileName){
         this.name = name;
         data = new HashSet<>();
-        try {
-            ClassLoader classLoader = getClass().getClassLoader();
-            Scanner input = new Scanner(new File(classLoader.getResource(fileName).getFile()));
-            while (input.hasNext()){
-                data.add(input.next().toLowerCase());
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+        ClassLoader classLoader = getClass().getClassLoader();
+        Scanner input = new Scanner(classLoader.getResourceAsStream(fileName));
+        while (input.hasNext()){
+            data.add(input.next().toLowerCase());
         }
     }
 
