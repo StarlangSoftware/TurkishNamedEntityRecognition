@@ -27,8 +27,6 @@ public class NERCorpus extends Corpus{
                 addSentence(new NamedEntitySentence(line));
                 line = br.readLine();
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
