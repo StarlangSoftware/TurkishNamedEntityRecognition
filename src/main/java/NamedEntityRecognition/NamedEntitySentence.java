@@ -6,10 +6,18 @@ import Dictionary.Word;
 
 public class NamedEntitySentence extends Sentence {
 
+    /**
+     * Empty constructor for {@link NamedEntitySentence}
+     */
     public NamedEntitySentence(){
         super();
     }
 
+    /**
+     * Another constructor of {@link NamedEntitySentence}. It takes input a named entity annotated sentence in string
+     * form, divides the sentence with respect to space and sets the tagged words with respect to their tags.
+     * @param sentence Named Entity annotated sentence in string form
+     */
     public NamedEntitySentence(String sentence){
         String entityType, candidate;
         NamedEntityType type = NamedEntityType.NONE;

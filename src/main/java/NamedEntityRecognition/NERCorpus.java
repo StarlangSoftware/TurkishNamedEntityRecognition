@@ -7,15 +7,30 @@ import DataStructure.CounterHashMap;
 
 public class NERCorpus extends Corpus{
 
+    /**
+     * A constructor of {@link NERCorpus} which initializes the sentences of the corpus, the word list of
+     * the corpus.
+     */
     public NERCorpus(){
         sentences = new ArrayList<Sentence>();
         wordList = new CounterHashMap<>();
     }
 
+    /**
+     * A clone method for the {@link NERCorpus} class.
+     *
+     * @return A copy of the current {@link NERCorpus} class.
+     */
     public NERCorpus emptyCopy(){
         return new NERCorpus();
     }
 
+    /**
+     * Another constructor of {@link NERCorpus} which takes a fileName of the corpus as an input, reads the
+     * corpus from that file.
+     *
+     * @param fileName Name of the corpus file.
+     */
     public NERCorpus(String fileName){
         String line;
         sentences = new ArrayList<Sentence>();
@@ -32,10 +47,18 @@ public class NERCorpus extends Corpus{
         }
     }
 
+    /**
+     * addSentence adds a new sentence to the sentences {@link ArrayList}
+     * @param s Sentence to be added.
+     */
     public void addSentence(NamedEntitySentence s){
         sentences.add(s);
     }
 
+    /**
+     * writeToFile writes the corpus in the format given above into the file with the given fileName.
+     * @param fileName Output file name.
+     */
     public void writeToFile(String fileName){
         PrintWriter writer;
         try {
