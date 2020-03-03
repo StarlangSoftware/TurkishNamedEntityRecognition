@@ -20,7 +20,8 @@ See the Table below for typical generic named entity types.
 
 For Developers
 ============
-
+You can also see either [Python](https://github.com/olcaytaner/TurkishNamedEntityRecognition-Py) 
+or [C++](https://github.com/olcaytaner/TurkishNamedEntityRecognition-CPP) repository.
 ## Requirements
 
 * [Java Development Kit 8 or higher](#java), Open JDK or Oracle JDK
