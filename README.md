@@ -93,19 +93,31 @@ Use below line to generate jar file:
 
      mvn install
 
-
-
-------------------------------------------------
-
-NamedEntityRecognition
-============
-+ [Maven Usage](#maven-usage)
-
-
-### Maven Usage
+## Maven Usage
 
 	<dependency>
   	<groupId>NlpToolkit</groupId>
   	<artifactId>NamedEntityRecognition</artifactId>
   	<version>1.0.1</version>
 	</dependency>
+
+
+------------------------------------------------
+
+Detailed Description
+============
++ [Gazetteer](#gazetteer)
+
+## Gazetteer
+
+Bir Gazetter yüklemek için
+
+	Gazetteer(String name, String fileName)
+
+Hazır Gazetteerleri kullanmak için
+
+	AutoNER()
+
+Bir Gazetteer'de bir kelime var mı diye kontrol etmek için
+
+	boolean contains(String word)
