@@ -12,30 +12,19 @@ public enum NamedEntityType {
      * @return Entity type in {@link NamedEntityType} form
      */
     public static NamedEntityType getNamedEntityType(String entityType){
-        if (entityType == null){
-            return NamedEntityType.NONE;
-        } else {
-            if (entityType.equalsIgnoreCase("PERSON")){
+        switch (entityType){
+            case "PERSON":
                 return NamedEntityType.PERSON;
-            } else {
-                if (entityType.equalsIgnoreCase("LOCATION")){
-                    return NamedEntityType.LOCATION;
-                } else {
-                    if (entityType.equalsIgnoreCase("ORGANIZATION")){
-                        return NamedEntityType.ORGANIZATION;
-                    } else {
-                        if (entityType.equalsIgnoreCase("TIME")){
-                            return NamedEntityType.TIME;
-                        } else {
-                            if (entityType.equalsIgnoreCase("MONEY")){
-                                return NamedEntityType.MONEY;
-                            } else {
-                                return NamedEntityType.NONE;
-                            }
-                        }
-                    }
-                }
-            }
+            case "LOCATION":
+                return NamedEntityType.LOCATION;
+            case "ORGANIZATION":
+                return NamedEntityType.ORGANIZATION;
+            case "TIME":
+                return NamedEntityType.TIME;
+            case "MONEY":
+                return NamedEntityType.MONEY;
+            default:
+                return NamedEntityType.NONE;
         }
     }
 
