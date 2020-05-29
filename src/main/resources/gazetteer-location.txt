@@ -40,8 +40,7 @@ belçika
 berkeley
 berlin
 beverly
-birleşik devletler
-birleşik krallık
+birleşik
 birmingham
 bloomington
 bolinas
@@ -63,8 +62,6 @@ charleston
 charlotte
 chongju
 çin
-çindeki
-çinli
 cobb
 colo
 colombia
@@ -76,6 +73,7 @@ delta
 dennyler
 denver
 detroit
+devletler
 discovision
 doğu
 dublin
@@ -84,7 +82,6 @@ dünya
 el
 emeryville
 estes
-evlerindeki
 fault
 fidel
 finlandiya
@@ -104,7 +101,6 @@ geneva
 golden
 greenville
 hampshire
-havaalanında
 havana
 heber
 hindistan
@@ -120,7 +116,6 @@ idaho
 ind
 indianapolis
 iowa
-i̇rlandalı
 i̇spanya
 i̇srail
 i̇sveç
@@ -133,6 +128,7 @@ jose
 kahire
 kali̇forni̇ya
 kanada
+krallık
 kong
 kore
 körfez
@@ -183,13 +179,10 @@ n.h
 n.j
 n.j.
 n.m
-naki̇t
 namibya
 naperville
 nekoosa
 nevada
-new jersey
-new york
 newport
 nicaragua
 norveç

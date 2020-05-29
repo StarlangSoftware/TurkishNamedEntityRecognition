@@ -4,7 +4,6 @@ aaa
 ab
 abc
 abd
-abitibi price
 academy
 acadia
 acceptance
@@ -17,7 +16,6 @@ aegon
 aer
 aeroflot
 affiliated
-afl cio
 ag
 agip
 agricole
@@ -141,7 +139,6 @@ brands
 braniff
 brewery
 brewing
-bristol myers
 bristol-myers
 britanya
 british
@@ -149,7 +146,6 @@ britton
 broadcasting
 brookings
 brothers
-brown forman
 brown-forman
 bsb
 bsn
@@ -167,7 +163,6 @@ cablevision
 cadillac
 cae
 california
-çalışma hakkı
 calor
 caltrans
 cambridge
@@ -195,8 +190,6 @@ centel
 centennial
 central
 centrust
-century fox
-cep telefonu
 cetus
 cftc
 champs
@@ -218,7 +211,6 @@ church
 cia
 ciba
 ciba-geigy
-çift a 3
 cilcorp
 cincinnati
 cinematografica
@@ -240,7 +232,6 @@ coastal
 coates
 cob
 coburn
-coca cola
 coca-cola
 coda
 code
@@ -322,7 +313,6 @@ delicious
 della
 delmed
 democrats
-denetçileri
 deniz
 denny
 dentsu
@@ -452,11 +442,9 @@ gannett
 garcias
 gasb
 ge
-gen probe
 genetics
 geographic
 georgia
-georgia pacific
 giant
 giants
 gillette
@@ -470,7 +458,6 @@ goodrich
 goodyear
 government
 goya
-gramm rudman
 grand
 graphics
 greens
@@ -509,13 +496,11 @@ helionetikler
 hells
 helmsley
 helper
-hewlett packard
 hewlett-packard
 hilton
 himont
 hiroshima
 hisse
-hisse senedi
 hofi
 holdings
 holland
@@ -588,7 +573,6 @@ j.c.
 j.p.
 jacobs
 jaguar
-jaguar gm
 janus
 japan
 japon
@@ -617,16 +601,13 @@ kellogg
 kennametal
 kensington
 kentucky
-kerr mcgee
 kia
 kidder
 kiki
-kinder care
 kirin
 kirschner
 kırsal
 klubü
-knight ridder
 knowledgeware
 kodak
 kominikasyon
@@ -779,7 +760,6 @@ needham
 nesb
 nestle
 new
-new york
 newark
 news
 next
@@ -796,13 +776,11 @@ nrm
 nsc
 ntt
 nucor
-nucor benzeri
 nutritional
 nynex
 nyse
 oasis
 occidental
-occupational urgent
 octel
 odeon
 odi
@@ -845,7 +823,6 @@ paramount
 paribas
 paris
 parkways
-parlamento senato
 parsippany
 partners
 passive
@@ -902,7 +879,6 @@ profesyonel
 projesine
 propane
 prozac
-prudential bache
 pse
 public
 publications
@@ -948,7 +924,6 @@ review
 reynolds
 rezerv
 rhin
-rhone poulenc
 rianta
 richfield
 rico
@@ -1007,7 +982,6 @@ shack
 shadow
 shamrock
 sharpshooter
-shaw walker
 shea
 shearson
 shell
@@ -1088,7 +1062,6 @@ technologies
 technology
 teijin
 teito
-tele communications
 telerate
 telesis
 temple
@@ -1103,7 +1076,6 @@ thomasini
 tiffany
 time
 times
-times borsa
 times-stock
 titanium
 tıp
