@@ -122,13 +122,15 @@ Bir Gazetteer'de bir kelime var mı diye kontrol etmek için
 
 	boolean contains(String word)
 
-## Cite
-If you use this resource on your research, please cite the following paper: 
+# Cite
 
-```
-@inproceedings{ertopcu17,  
-author={B. {Ertopçu} and A. B. {Kanburoğlu} and O. {Topsakal} and O. {Açıkgöz} and A. T. {Gürkan} and B. {Özenç} and İ. {Çam} and B. {Avar} and G. {Ercan} and O. T. {Yıldız}},  
-booktitle={2017 International Conference on Computer Science and Engineering (UBMK)},  title={A new approach for named entity recognition},   
-year={2017},  
-pages={474-479}
-}
+	@INPROCEEDINGS{8093439,
+  	author={B. {Ertopçu} and A. B. {Kanburoğlu} and O. {Topsakal} and O. {Açıkgöz} and A. T. {Gürkan} and B. {Özenç} and İ. {Çam} and B. {Avar} and G. {Ercan} 	and O. T. {Yıldız}},
+  	booktitle={2017 International Conference on Computer Science and Engineering (UBMK)}, 
+  	title={A new approach for named entity recognition}, 
+  	year={2017},
+  	volume={},
+  	number={},
+  	pages={474-479},
+  	doi={10.1109/UBMK.2017.8093439}}
+
