@@ -12,7 +12,7 @@ public enum NamedEntityType {
      * @return Entity type in {@link NamedEntityType} form
      */
     public static NamedEntityType getNamedEntityType(String entityType){
-        switch (entityType){
+        switch (entityType.toUpperCase()){
             case "PERSON":
                 return NamedEntityType.PERSON;
             case "LOCATION":
