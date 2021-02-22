@@ -35,4 +35,15 @@ public class Slot {
     public String getTag(){
         return tag;
     }
+
+    public String toString(){
+        switch (type){
+            case O:
+                return "O";
+            case B:
+            case I:
+                return type.toString() + "-" + tag;
+        }
+        return "";
+    }
 }
