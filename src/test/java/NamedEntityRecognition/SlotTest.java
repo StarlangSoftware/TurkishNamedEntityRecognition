@@ -1,7 +1,5 @@
 package NamedEntityRecognition;
 
-import DataStructure.CounterHashMap;
-
 import static org.junit.Assert.assertEquals;
 
 public class SlotTest {
