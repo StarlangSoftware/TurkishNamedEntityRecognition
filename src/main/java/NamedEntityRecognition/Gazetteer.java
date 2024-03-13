@@ -5,8 +5,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Gazetteer {
-    private HashSet<String> data;
-    private String name;
+    private final HashSet<String> data;
+    private final String name;
 
     /**
      * A constructor for a specific gazetteer. The constructor takes name of the gazetteer and file name of the

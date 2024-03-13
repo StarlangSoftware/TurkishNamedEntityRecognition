@@ -2,7 +2,7 @@ package NamedEntityRecognition;
 
 public class Slot {
     private SlotType type;
-    private String tag;
+    private final String tag;
 
     public Slot(SlotType type, String tag){
         this.type = type;
@@ -42,7 +42,7 @@ public class Slot {
                 return "O";
             case B:
             case I:
-                return type.toString() + "-" + tag;
+                return type + "-" + tag;
         }
         return "";
     }

@@ -2,7 +2,6 @@ package NamedEntityRecognition;
 
 import java.util.ArrayList;
 import Corpus.Sentence;
-import Dictionary.Word;
 
 public class NamedEntitySentence extends Sentence {
 
@@ -22,7 +21,7 @@ public class NamedEntitySentence extends Sentence {
         String entityType, candidate;
         NamedEntityType type = NamedEntityType.NONE;
         String[] wordArray;
-        words = new ArrayList<Word>();
+        words = new ArrayList<>();
         wordArray = sentence.split(" ");
         for (String word : wordArray){
             if (!word.isEmpty()){

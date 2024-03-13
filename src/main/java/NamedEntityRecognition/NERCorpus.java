@@ -12,7 +12,7 @@ public class NERCorpus extends Corpus{
      * the corpus.
      */
     public NERCorpus(){
-        sentences = new ArrayList<Sentence>();
+        sentences = new ArrayList<>();
         wordList = new CounterHashMap<>();
     }
 
@@ -33,7 +33,7 @@ public class NERCorpus extends Corpus{
      */
     public NERCorpus(String fileName){
         String line;
-        sentences = new ArrayList<Sentence>();
+        sentences = new ArrayList<>();
         try {
             FileReader fr = new FileReader(fileName);
             BufferedReader br = new BufferedReader(fr);
@@ -42,8 +42,7 @@ public class NERCorpus extends Corpus{
                 addSentence(new NamedEntitySentence(line));
                 line = br.readLine();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException ignored) {
         }
     }
 
@@ -90,8 +89,7 @@ public class NERCorpus extends Corpus{
                 writer.println();
             }
             writer.close();
-        } catch (FileNotFoundException | UnsupportedEncodingException e) {
-            e.printStackTrace();
+        } catch (FileNotFoundException | UnsupportedEncodingException ignored) {
         }
     }
 

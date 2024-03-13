@@ -3,7 +3,7 @@ package NamedEntityRecognition;
 import Dictionary.Word;
 
 public class NamedEntityWord extends Word{
-    private NamedEntityType namedEntityType;
+    private final NamedEntityType namedEntityType;
 
     /**
      * A constructor of {@link NamedEntityWord} which takes name and nameEntityType as input and sets the corresponding attributes
