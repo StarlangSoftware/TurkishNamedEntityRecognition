@@ -24,10 +24,6 @@ Video Lectures
 
 [<img src=video.jpg width="50%">](https://youtu.be/tuuc5W5oNPw)
 
-Class Diagram
-============
-
-<img src="classDiagram.png">
 
 For Developers
 ============
@@ -146,6 +142,10 @@ Bir Gazetteer'de bir kelime var mı diye kontrol etmek için
 
 For Contibutors
 ============
+
+### Class Diagram
+
+<img src="classDiagram.png">
 
 ### pom.xml file
 1. Standard setup for packaging is similar to:
